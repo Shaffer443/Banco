@@ -5,7 +5,7 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		// Premissa:
-		/*
+		
 		Conta c1 = new Conta(001, "Rafael", 1000, 300);
 		
 		//informação antes das atividades:
@@ -20,7 +20,7 @@ public class Principal {
 		// Informação depois das ações:
 		
 		c1.info(); 
-		*/
+		
 		
 		Conta c2 = new Conta(002,"Poliska", 14000, 400);
 		
@@ -30,8 +30,13 @@ public class Principal {
 		
 		c2.info();
 		
+		// Transferência:
 		
+		c2.transferir(c1,200);
 		
+		c2.info();
+		
+		c1.info();
 	}
 	
 
